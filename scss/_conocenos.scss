@@ -1,0 +1,72 @@
+/*-----------------------------------------------------------------------*/
+
+/* inicia conocenos */
+.tituloconocenos{
+	@include title; }
+
+.smbloque{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3rem;
+}
+
+.smbloque__titulo{
+	display: flex;
+	flex-direction: column;
+	color: $violeta;
+	font-family: $cursive-font;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center; 
+}
+
+.smbloque__texto{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: red;
+	font-family: "barlow", sans-serif;
+	text-align: center;
+	font-size: 0.8rem; 
+}
+
+
+
+.presentacion{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content:flex-start;
+	align-items: center; 
+	width:2rem;
+	padding-top: 2rem;
+
+	 .presentacion__img{
+	 	width: 200px;
+	 	height: 200px;
+
+
+	 }
+
+	 .presentacion__nombre{
+	 	font-family: $cursive-font;
+	 	color: red;
+	 	text-align: center;
+	 	font-size: 2rem;
+	 	padding-top: 0.7rem;
+	 }
+
+	 .presentacion__texto{
+	 	font-family: $text-font;
+	 	text-align: center;
+	 	color: $violeta;
+	 	font-size: 0.8rem;
+
+	 }
+}
+
+
+
+/* fin conocenos */

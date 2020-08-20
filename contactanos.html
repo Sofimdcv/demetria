@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contactanos - Hablemos!</title>
+	<link rel="stylesheet" type="text/css" href="css/estilosCSS.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<meta name="description" content="Tienda de makeup y skincare, contactanos y resolveremos tu consulta">
+	<meta name="keywords"  content="SKINCARE, MAKEUP, MAQUILLAJE, CUIDADO DE LA PIEL, BELLEZA, HIDRATACIÓN, CREMA, SERUM, LABIAL, SOMBRA, DUDA, CONSULTA, PREGUNTA">
+</head>
+<body>
+<!-- inicio header -->
+	<header>
+		<nav>
+			<div class="logo"> <img src="img/fondo-06.png" alt="demetriamarca"></div>
+
+			<ul class="u">
+				<li><strong><a href="index.html">Home</a></strong></li>
+				<li><a href="servicios.html">Servicios</a>
+					<ul>
+						<li><a href="store.html">Productos</a></li>
+						<li><a href="asesoramiento.">Test skincare</a></li>
+					</ul>
+				</li>
+
+
+				<li><a href="conocenos.html">Conocenos</a></li>
+				<li><a href="contactanos.html" id="active">Contactanos</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- fin header -->	
+	<h1 id="titulocontac"><strong>¡Contactanos!</strong></h1>
+<!-- inicia form -->
+	<div class="content"> 
+		<div class="contacto-w">
+			<div class="contacto-form">			
+				
+				<form action="contactanos_submit" method="get" accept-charset="utf-8">
+
+					<p>
+						<label for=name id="label">Nombre y Apellido</label>
+						<input type="name" name="nombre y apellido">	
+					</p>
+
+					<p>	
+						<label for=email id="label">Ingresá tu email</label>
+						<input type="email" name="email" placeholder="sofim@gmail.com">
+					</p>
+
+					<p>
+						<label for=email id="label">Mensaje</label>	
+						<textarea name="consulta" rows="5" cols="5"></textarea>
+					</p>
+
+					<p>
+						<button type="submit" name="submit">
+							Enviar
+						</button>
+						
+					</p>
+
+				</form>
+			</div>
+		</div>
+	</div>
+<!-- fin form -->	
+
+
+
+
+
+
+<script src=js/jquery.js></script>
+<script src=js/bootstrap.min.js></script>
+<script src=js/bootstrap.bundle.min.js></script>
+<script src="js/wow.min.js"></script>
+<script> new WOW().init(); </script>
+
+</body>
+
+</html>

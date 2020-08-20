@@ -1,0 +1,39 @@
+$lila:#D1BADB;
+$violeta:#662483;
+$cursive-font:"eternate", sans-serif;
+$text-font:"barlow semi condensed", sans-serif;
+
+@mixin encabezado{
+	width: 100%;
+	height: 280px;
+	background-color: $lila;
+}
+
+@mixin title{
+	margin-top: 80px;
+ 	color: red;
+	font-family: "dutch801 Rm BT", serif;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 3;
+	letter-spacing: 3px;
+	z-index: -3;
+	background-image: url(../img/fondo-04.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+@mixin textoen{
+	padding-button: 1em;
+	color: $violeta;
+	font-family: "barlow Semi Condensed", sans-serif;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+@mixin encabezado2{
+	width: 100%;
+	height: 200px;
+}

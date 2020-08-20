@@ -1,0 +1,78 @@
+/*-----------------------------------------------------------------------*/
+/*inicia servicios*/
+.servicios{
+	background-color: #D1BADB;
+
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+#titulo {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	padding-top: 80px;
+	font-family: "dutch801 Rm BT", serif;
+	letter-spacing: 1.5px;
+	color: red;
+	font-size: 30px;
+	text-align: center;
+	line-height: 1.6;
+	background-color: #D1BADB;
+	
+}
+
+
+
+button a{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding-left: 1rem;
+	font-family: "eternate", sans-serif;
+	letter-spacing: 1.5px;
+	color: red;
+	font-size: 30px;
+	text-align: center;
+}
+
+button a:hover{
+	display: flex;
+	justify-content: center;
+	width: 25rem;
+	height: 25rem;
+	text-decoration: none;
+	font-family: "eternate", sans-serif;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	background: linear-gradient(rgba(255,255,0,0),red);
+
+}
+
+
+
+#store{
+	width: 25rem;
+	height: 25rem;
+	border:none;
+	background-image: url(../img/galeria_5.jpg);
+  	background-repeat: no-repeat;
+ 	background-position: center;
+  	background-size: cover;
+}
+
+#test{
+	width: 25rem;
+	height: 25rem;
+	border:none;
+	background-image: url(../img/test-02.jpg);
+  	background-repeat: no-repeat;
+ 	background-position: center;
+  	background-size:cover; 	
+}

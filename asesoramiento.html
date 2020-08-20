@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demetria - Test de Skincare</title>
+	<link rel="stylesheet" type="text/css" href="css/estilosCSS.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+	<meta name="description" content="Tienda de makeup y skincare - Test de skincarearmamos tu rutina de skincare personalizada">
+	<meta name="keywords"  content="SKINCARE, MAKEUP, MAQUILLAJE, CUIDADO DE LA PIEL, BELLEZA, HIDRATACIÓN, CREMA, SERUM, LABIAL, SOMBRA, TEST, RUTINA, RUTINA DE DÍA, RUTINA DE NOCHE, PRODUCTOS">
+
+</head>
+<body>
+
+
+<!-- /header -->
+
+	<header>
+		<nav>
+			<div class="logo"> <img src="img/fondo-06.png" alt="demetriamarca"></div>
+
+			<ul class="u">
+				<li><strong><a href="index.html" id="active">Home</a></strong></li>
+				<li><a href="servicios.html">Servicios</a>
+					<ul>
+						<li><a href="store.html">Productos</a></li>
+						<li><a href="asesoramiento.html">Test skincare</a></li>
+					</ul>
+				</li>
+
+
+				<li><a href="conocenos.html">Conocenos</a></li>
+				<li><a href="contactanos.html">Contactanos</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- fin header -->
+
+
+<!-- /titulo -->
+<div id="encabezado">
+	<h1 class="titulo">Test skincare</h1>
+	<p class="texto">
+		Completando este formulario sobre  las necesidades de tu piel, 
+		vamos a armarte tu rutina de skincare personalizada.
+	</p>
+</div>	
+<!-- fin titulo -->
+
+<!--test-->
+<div class="test-form container-fluid">
+	
+	<form action="asesoramiento_submit" method="get" accept-charset="utf-8">
+		<div class="row">
+			
+
+			<!--Inicia Fila 1-->
+					
+					<div class="card col-md-6">
+					
+						<h2 class="card__pregunta">¿Cómo sentís tu piel normalmente?</h2>
+
+						<input type="radio" name="¿Cómo sentís tu piel normalmente?" id="Nariz y frente con oleosidad, el resto del rostro super bien">
+						<label for="Nariz y frente con oleosidad, el resto del rostro super bien." class="card__input">Nariz y frente con oleosidad, el resto del rostro super bien.</label>
+
+						<br>
+
+						<input type="radio" name="¿Cómo sentís tu piel normalmente?" id="La siento seca y tirante en algunas zonas. Se ve apagada, sin luminosidad.">
+						<label for="La siento seca y tirante en algunas zonas. Se ve apagada, sin luminosidad." class="card__input">La siento seca y tirante en algunas zonas. Se ve apagada, sin luminosidad.</label>
+
+						<br>
+
+						<input type="radio" name="¿Cómo sentís tu piel normalmente?" id="Bien al despertar, pero genera mucha oleosidad a lo largo del día.">
+						<label for="Bien al despertar, pero genera mucha oleosidad a lo largo del día."class="card__input">Bien al despertar, pero genera mucha oleosidad a lo largo del día.</label>
+
+						<br>
+
+						<input type="radio" name="¿Cómo sentís tu piel normalmente?" id="Oleosa en todo momento.">
+						<label for="Oleosa en todo momento." class="card__input">Oleosa en todo momento.</label>	
+					</div>
+					<div class="card__img col-md-6" >
+						<img src="img/test-01.jpg" alt="">		
+					</div>
+				
+				
+			<!--Termina Fila 1-->
+			<!--Inicia Fila 2-->
+				
+				
+					<div class="card__img col-md-6" >
+						<img src="img/test-02.jpg" alt="">		
+					</div>
+					<div class="card col-md-6">
+					
+						<h2 class="card__pregunta">¿Utilizas productos de skincare?</h2>
+
+						<input type="radio" name="¿Utilizas productos de skincare?" id="Si">
+						<label for="Si" class="card__input">Si</label>
+						
+
+
+						<input type="radio" name="¿Utilizas productos de skincare?" id="No">
+						<label for="No" class="card__input">No</label>
+
+						<small class="card__small">Si tu respuesta fue sí, contanos cuales. (Tipo de producto, marca, paso en la rutina.</small>
+						<textarea name="consulta" rows="4" cols="4"></textarea>
+					</div>
+					
+				<!--Termina Fila 2-->
+				<!--Inicia Fila 3-->
+					
+						<div class="card col-md-6">
+						
+							<h2 class="card__pregunta">¿Cuál es tu principal objetivo al armar tu rutina?</h2>
+
+							<input type="radio" name="¿Cuál es tu principal objetivo al armar tu rutina?" id="Cuidado diario de la piel.">
+							<label for="Cuidado diario de la piel." class="card__input">Cuidado diario de la piel.</label>
+
+							<input type="radio" name="¿Cuál es tu principal objetivo al armar tu rutina?" id="Tener menos acné.">
+							<label for="Tener menos acné." class="card__input">Tener menos acné.</label>
+
+							<input type="radio" name="¿Cuál es tu principal objetivo al armar tu rutina?" id="Combatir los signos de la edad.">
+							<label for="Combatir los signos de la edad." class="card__input">Combatir los signos de la edad.</label>
+
+							<input type="radio" name="¿Cuál es tu principal objetivo al armar tu rutina?" id="Hidratar mi piel.">
+							<label for="Hidratar mi piel." class="card__input">Hidratar mi piel.</label>	
+
+							<input type="radio" name="¿Cuál es tu principal objetivo al armar tu rutina?" id="Tratar la rosácea">
+							<label for="Tratar la rosácea" class="card__input">Tratar la rosácea.</label>
+
+							<input type="radio" name="¿Cuál es tu principal objetivo al armar tu rutina?" id="Eliminar la oleosidad.">
+							<label for="Eliminar la oleosidad." class="card__input">Eliminar la oleosidad.</label>
+
+						</div>
+						<div class="card__img col-md-6">
+							<img src="img/test-04.jpg" alt="">		
+						</div>
+					
+			<!--Termina Fila 3-->
+			<!--Inicia Fila 4-->
+				<div class="card__img col-md-6">
+					<img src="img/test-05.jpg" alt="">		
+				</div>
+				<div class="card col-md-6">
+				
+					<h2 class="card__pregunta">¿Cuántos pasos de rutina estas dispuestx a seguir?</h2>
+
+					<input type="radio" name="¿Cuántos pasos de rutina estas dispuestx a seguir?" id="0a3">
+					<label for="0a3" class="card__input">0 a 3</label>
+
+					<input type="radio" name="¿Cuántos pasos de rutina estas dispuestx a seguir?" id="4a7">
+					<label for="4a7" class="card__input">4 a 7</label>
+				</div>
+			<!--Termina Fila 4-->
+			<!--Incia Fila 5-->
+				<div  class="listo col-md-12">
+					<div class="listo__div">
+						
+						<h2 class="listo__item">¡Listo!</h2>
+						<p class="listo__text">Te vamos a enviar tu rutina personalizada por email.</p>
+
+						<p>
+							<label for=name id="label">Nombre y Apellido</label>
+							<input type="name" name="nombre y apellido">	
+						</p>
+
+						<p>	
+							<label for=email id="label">Ingresá tu email</label>
+							<input type="email" name="email" placeholder="sofim@gmail.com">
+						</p>
+
+						<p>
+							<label for=email id="label">Mensaje</label>	
+							<textarea name="consulta" rows="5" cols="5"></textarea>
+							<small class="card__small">Podés agregar cualquier dato que sea importante</small>
+						</p>
+
+						<p>
+							<button type="submit" name="submit">
+								Enviar
+							</button>
+							
+						</p>
+					</div>
+					
+				</div>
+				<!--Termina Fila 5-->
+		</div>	
+	</form>
+</div>	
+
+
+</body>
+</html>

@@ -1,0 +1,687 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.pad_100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+/*-----------------------------------------------------------------------*/
+/* inicia Header */
+header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  padding: 1rem;
+  z-index: 3; }
+
+header nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+nav .logo {
+  height: 48px; }
+
+header img {
+  display: inline-block;
+  height: 100%; }
+
+header li {
+  display: inline-block;
+  list-style: none;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  list-style: none;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  position: relative; }
+
+header ul ul {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 1rem; }
+
+header ul li:hover ul {
+  display: block; }
+
+header ul li:hover a {
+  color: red; }
+
+header a {
+  display: flex;
+  text-decoration: none;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #662483;
+  text-transform: uppercase;
+  margin-top: 2px; }
+
+header a #active {
+  color: red;
+  border-top: 3px solid red; }
+
+/* fin header */
+/*-----------------------------------------------------------------------*/
+/* inicia index */
+#bienvenidxs {
+  width: 100%;
+  height: 600px;
+  background-color: #D1BADB;
+  margin-top: 50px;
+  padding-top: 80px; }
+
+.marca {
+  color: red;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 3px; }
+
+.bajada {
+  color: #662483;
+  font-family: "eternate", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0px; }
+
+#frase {
+  width: 100%;
+  height: 10px;
+  color: red;
+  font-family: "eternate", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background-image: url(../img/fondo-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 275px;
+  padding-top: 80px; }
+
+.fondofrase {
+  background-image: url(fondo-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+/*Inicia Carousel*/
+.carousel {
+  margin: 2rem 6rem 2rem 6rem; }
+
+.w-100 {
+  width: 600px;
+  height: 300px;
+  object-fit: cover; }
+
+/*Finaliza Carousel*/
+/*padre servicios*/
+#servicios {
+  width: 100%;
+  height: 953px;
+  background-image: url(../img/fondo-03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 80px;
+  padding-top: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+/*hijos servicios*/
+#serviciositem {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#serviciositem .boton {
+  padding: 1rem; }
+
+#serviciostitulo {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-end;
+  writing-mode: vertical-lr;
+  font-family: 'dutch801 Rm BT', serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #D1BADB; }
+
+#serviciostitulo h1::after {
+  display: flex;
+  flex-direction: column;
+  content: "";
+  width: 3px;
+  height: 200px;
+  background-color: red; }
+
+/*secciones*/
+.seccionRoja {
+  color: red; }
+
+.seccionLila {
+  color: #D1BADB; }
+
+h2 {
+  color: #D1BADB; }
+
+/*comienza sobre demetria*/
+#sobre_demetria {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+#sm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: red;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  font-size: 55px;
+  text-align: right;
+  letter-spacing: 3px;
+  padding-right: 20px; }
+
+#sm h1 span {
+  display: block; }
+
+#smt {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  height: 80px;
+  width: 500px;
+  color: #662483;
+  font-family: "barlow", sans-serif;
+  font-size: 0.8rem; }
+
+/*termina sobre demetria*/
+/*sección blog*/
+/*padre blog*/
+#blogcc {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #D1BADB;
+  padding-top: 80px; }
+
+#blogcc h1 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-end;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: 'dutch801 Rm BT', serif;
+  font-weight: bold;
+  font-size: 2rem; }
+
+#blogcc h1::before {
+  display: flex;
+  flex-direction: column;
+  content: "";
+  width: 3px;
+  height: 200px;
+  background-color: red; }
+
+/*hijos blog*/
+#bblog {
+  display: flex;
+  flex-direction: column;
+  padding: 5px; }
+
+#bblog p {
+  color: #662483;
+  font-family: 'barlow', sans-serif;
+  font-size: 12px; }
+
+#bblog h3 {
+  color: #662483;
+  font-family: 'dutch801 Rm BT', serif;
+  font-weight: bold;
+  font-size: 14px; }
+
+#servicios {
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/fondo-03.png);
+  background-repeat: no-repeat;
+  background-position: right; }
+
+/*sección insta*/
+/*inicia insta*/
+.tituloi {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0px 20px 0px;
+  font-family: "eternate", sans-serif;
+  font-size: 40px;
+  color: red; }
+
+h1.tituloi::before {
+  display: flex;
+  flex-direction: column;
+  content: "";
+  width: 248px;
+  height: 3px;
+  background-color: currentColor; }
+
+#insta {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 10px;
+  width: 100%;
+  justify-content: center; }
+
+.galeria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeria:ntc-child(4) {
+  grid-row-start: span 2; }
+
+#user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 20px 0px 20px 0px; }
+
+#user a {
+  text-decoration: none;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: red;
+  padding-right: 10px; }
+
+#user::after {
+  display: flex;
+  flex-direction: column;
+  content: "";
+  width: 248px;
+  height: 3px;
+  background-color: red; }
+
+/*termina insta*/
+/* fin index */
+/*-----------------------------------------------------------------------*/
+/* inicia contactanos*/
+#titulocontac {
+  margin-top: 80px;
+  color: red;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3;
+  letter-spacing: 3px;
+  z-index: -3;
+  background-image: url(../img/fondo-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em; }
+
+.contacto-w > * {
+  padding-bottom: 1em; }
+
+.contacto-form form {
+  margin: 0;
+  padding: 2em; }
+
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form form textarea {
+  width: 100%;
+  padding: .3em;
+  margin-bottom: 1em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #662483;
+  border-bottom: 1px solid red; }
+
+.contacto-form form button {
+  background-color: red;
+  border: 0;
+  padding: .7em;
+  width: 150px;
+  color: #ffffff;
+  font-family: "dutch801 Rm BT", serif;
+  letter-spacing: .1em;
+  text-transform: uppercase; }
+
+form {
+  width: 100%; }
+
+#label {
+  font-family: "dutch801 Rm BT", serif;
+  letter-spacing: 1.5px;
+  color: red;
+  font-size: 15px;
+  text-align: center; }
+
+/* fin contactanos*/
+/*-----------------------------------------------------------------------*/
+/*inicia servicios*/
+.servicios {
+  background-color: #D1BADB; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem; }
+
+#titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 80px;
+  font-family: "dutch801 Rm BT", serif;
+  letter-spacing: 1.5px;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.6;
+  background-color: #D1BADB; }
+
+button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-left: 1rem;
+  font-family: "eternate", sans-serif;
+  letter-spacing: 1.5px;
+  color: red;
+  font-size: 30px;
+  text-align: center; }
+
+button a:hover {
+  display: flex;
+  justify-content: center;
+  width: 25rem;
+  height: 25rem;
+  text-decoration: none;
+  font-family: "eternate", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 0, 0), red); }
+
+#store {
+  width: 25rem;
+  height: 25rem;
+  border: none;
+  background-image: url(../img/galeria_5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#test {
+  width: 25rem;
+  height: 25rem;
+  border: none;
+  background-image: url(../img/test-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+/*-----------------------------------------------------------------------*/
+/*inicia test skincare*/
+#encabezado {
+  width: 100%;
+  height: 280px;
+  background-color: #D1BADB; }
+
+.titulo {
+  margin-top: 80px;
+  color: red;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3;
+  letter-spacing: 3px;
+  z-index: -3;
+  background-image: url(../img/fondo-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.texto {
+  padding-button: 1em;
+  color: #662483;
+  font-family: "barlow Semi Condensed", sans-serif;
+  text-align: center;
+  font-size: 0.8rem; }
+
+.card {
+  height: 20rem;
+  border: none; }
+
+.card__pregunta {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: red;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.6; }
+
+.card__input {
+  display: inline-block;
+  padding: .4rem;
+  color: #662483;
+  font-family: "barlow semi condensed", sans-serif;
+  font-weight: bold;
+  font-size: .75rem;
+  text-align: center;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 3px; }
+
+.card__input:hover {
+  display: inline-block;
+  padding: .4rem;
+  color: #fff;
+  font-family: "barlow semi condensed", sans-serif;
+  font-weight: bold;
+  font-size: .75rem;
+  text-align: center;
+  background-color: #D1BADB;
+  cursor: pointer;
+  border-radius: 3px; }
+
+input:checked + label {
+  padding: .5rem;
+  color: #fff;
+  font-family: "barlow semi condensed", sans-serif;
+  font-weight: bold;
+  font-size: .75rem;
+  text-align: center;
+  background-color: red; }
+
+input {
+  display: none; }
+
+textarea {
+  border: 1px solid red; }
+
+.card__small {
+  padding: .5rem 0rem .5rem 0rem;
+  color: #662483;
+  font-family: "barlow semi condensed", sans-serif;
+  font-size: .75rem; }
+
+.card__img {
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem; }
+
+.card__img img {
+  display: inline-block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover; }
+
+.listo {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.listo__item {
+  color: red;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 3px;
+  background-image: url(../img/fondo-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.listo__text {
+  color: #662483;
+  font-family: "barlow Semi Condensed", sans-serif;
+  text-align: center; }
+
+.listo__div form button,
+.listo__div form input,
+.listo__div form textarea {
+  width: 100%;
+  padding: .3em;
+  margin-bottom: 1em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #662483;
+  border-bottom: 1px solid red; }
+
+.listo__div form button {
+  background-color: red;
+  border: 0;
+  padding: .7em;
+  width: 150px;
+  color: #ffffff;
+  font-family: "dutch801 Rm BT", serif;
+  letter-spacing: .1em;
+  text-transform: uppercase; }
+
+/* fin test skincare */
+/*-----------------------------------------------------------------------*/
+/* productos */
+/* productos */
+/*-----------------------------------------------------------------------*/
+/* inicia conocenos */
+.tituloconocenos {
+  margin-top: 80px;
+  color: red;
+  font-family: "dutch801 Rm BT", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3;
+  letter-spacing: 3px;
+  z-index: -3;
+  background-image: url(../img/fondo-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.smbloque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem; }
+
+.smbloque__titulo {
+  display: flex;
+  flex-direction: column;
+  color: #662483;
+  font-family: "eternate", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center; }
+
+.smbloque__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: red;
+  font-family: "barlow", sans-serif;
+  text-align: center;
+  font-size: 0.8rem; }
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  width: 2rem;
+  padding-top: 2rem; }
+  .presentacion .presentacion__img {
+    width: 200px;
+    height: 200px; }
+  .presentacion .presentacion__nombre {
+    font-family: "eternate", sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0.7rem; }
+  .presentacion .presentacion__texto {
+    font-family: "barlow semi condensed", sans-serif;
+    text-align: center;
+    color: #662483;
+    font-size: 0.8rem; }
+
+/* fin conocenos */
+/*-----------------------------------------------------------------------*/
+/* inicia footer */
+/* fin footer */
